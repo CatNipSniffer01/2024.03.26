@@ -24,3 +24,7 @@ emps.forEach( (emp) => {
     rows = rows + row;
 })
 tbody.innerHTML = rows;
+var empsStr = JSON.stringify(emps)
+console.log(empsStr)
+var vissza = JSON.parse(empsStr)
+console.log(vissza)
